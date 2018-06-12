@@ -35,6 +35,13 @@ body {
   height: 32rem;
 }
 
+.fist-slide,
+.second-slide, 
+.third-slid {
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -52,6 +59,9 @@ body {
   margin-left: .75rem;
 }
 
+.rounded-circle {
+	margin: auto;
+}
 
 /* Featurettes
 ------------------------- */
