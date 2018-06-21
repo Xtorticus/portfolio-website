@@ -10,30 +10,29 @@
 
     <title>Abe: Web Dev</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- CSS -->
     <link href="bootstrap-4.1.1/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   </head>
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Abe Zimmerman:</a>
+      <nav id="top" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Abe Zimmerman:</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="blog.html">Blog</a>
             </li>
           </ul>
         </div>
@@ -55,7 +54,7 @@
               <div class="carousel-caption text-left">
                 <h1>Abe Zimmerman</h1>
                 <p>A Front End Developer focused on extensible solutions.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#profile" role="button">Learn More</a></p>
               </div>
             </div>
           </div>
@@ -65,7 +64,7 @@
               <div class="carousel-caption">
                 <h1>Projects</h1>
                 <p>Take your vision and design and make it a reality on the web. We will develop your website to fill your specific needs.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#projects" role="button">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -75,7 +74,7 @@
               <div class="carousel-caption text-right">
                 <h1>Blog</h1>
                 <p>Check out my blog about my various web development projects.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                <p><a class="btn btn-lg btn-primary" href="#blog" role="button">Learn more</a></p>
               </div>
             </div>
           </div>
@@ -122,7 +121,7 @@
 
         <!-- START THE FEATURETTES -->
 
-        <hr class="featurette-divider">
+        <hr  id="profile" class="featurette-divider">
 
         <section class="row featurette">
           <article class="col-md-7">
@@ -137,7 +136,7 @@
           </div>
         </section>
 
-        <hr class="featurette-divider">
+        <hr id="projects" class="featurette-divider">
 
         <section class="row featurette">
           <article class="col-md-7 order-md-2">
@@ -149,7 +148,7 @@
           </div>
         </section>
 
-        <hr class="featurette-divider">
+        <hr id="blog" class="featurette-divider">
 
         <section class="row featurette">
           <article class="col-md-7">
@@ -170,8 +169,38 @@
 
       <!-- FOOTER -->
       <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017-2018 Abraham Zimmerman &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="https://twitter.com/AbeZimmerman2">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/abraham.zimmerman.7">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/abezimm">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="float-right"><a href="top">Back to top</a></p>
+            <p>&copy; 2017-2018 Abraham Zimmerman &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </div>
+        </div>
       </footer>
     </main>
 
