@@ -12,26 +12,32 @@
 
     <!-- CSS -->
     <link href="bootstrap-4.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
   </head>
   <body>
 
     <header>
-      <nav id="top" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.html">Abe Zimmerman:</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav id="top" class="navbar navbar-expand-md navbar-custom fixed-top">
+        <a class="navbar-brand">Abe Zimmerman:</a>
+        <button class="nav-btn navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
+              <hr class="menu-divider">
               <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
+              <hr class="menu-divider">
               <a class="nav-link" href="projects.html">Projects</a>
             </li>
             <li class="nav-item">
+              <hr class="menu-divider">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
           </ul>
@@ -39,7 +45,7 @@
       </nav>
     </header>
 
-    <main role="main">
+    <body role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -140,7 +146,7 @@
 
         <section class="row featurette">
           <article class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Complete List of current <span class="text-muted"> projects</span></h2>
+            <h2 class="featurette-heading">Complete List of Current <span class="text-muted"> Projects</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </article>
           <div class="col-md-5 order-md-1">
@@ -152,14 +158,14 @@
 
         <section class="row featurette">
           <article class="col-md-7">
-            <h2 class="featurette-heading">Check out my <span class="text-muted">blog.</span></h2>
+            <h2 class="featurette-heading">Check Out My <span class="text-muted">Blog.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </article>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
           </div>
         </section>
-
+        <p class="float-right"><a href="#top">Back to top</a></p>
         <hr class="featurette-divider">
 
         <!-- /END THE FEATURETTES -->
@@ -167,42 +173,43 @@
       </div><!-- /.container -->
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-10 mx-auto">
-            <ul class="list-inline text-center">
-              <li class="list-inline-item">
-                <a href="https://twitter.com/AbeZimmerman2">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/abraham.zimmerman.7">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://github.com/abezimm">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-            </ul>
-            <p class="float-right"><a href="top">Back to top</a></p>
-            <p>&copy; 2017-2018 Abraham Zimmerman &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <ul class="list-inline text-center">
+                <li class="list-inline-item">
+                  <a href="https://twitter.com/AbeZimmerman2">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://www.facebook.com/abraham.zimmerman.7">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/abezimm">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              <p class="copyright text-muted">Copyright &copy; abrahamzimmerman.com 2018</p>
+            </div> 
           </div>
         </div>
       </footer>
-    </main>
+    </body>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
