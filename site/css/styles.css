@@ -37,6 +37,33 @@ footer .copyright {
   .menu-divider{
     border-color: #fff;
   }
+
+/* About Page
+-------------------------------------------------- */
+
+/* about page Styles */
+
+#about-masthead{
+  background-image: url("../images/banner_backgrounds/about-banner.png")
+}
+
+/* Blog Page
+-------------------------------------------------- */
+
+/* blog page Styles */
+
+#blog-masthead{
+  background-image: url("../images/banner_backgrounds/blog-banner.png")
+}
+/* Contact Page
+-------------------------------------------------- */
+
+/* contact page Styles */
+
+#contact-masthead{
+  background-image: url("../images/banner_backgrounds/contact-masthead.png")
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
